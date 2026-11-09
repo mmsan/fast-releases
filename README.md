@@ -1,7 +1,9 @@
-# FastGoTo download tests
+# FastGoTo releases
 
-This public repository currently hosts only three generated data objects and a signed synthetic manifest for anonymous HTTPS download tests.
+This is the official distribution repository for FastGoTo, a Windows shortcut and search tool for opening programs and files, handling text, and running commands and scripts.
 
-No application source, installer executable, private Core binaries, private keys, or credentials are published. Logical paths in the test manifest only exercise the installer parser; the contents are not an installable product and must not be executed.
+See [Releases](https://github.com/mmsan/fast-releases/releases) for available downloads and their release notes. Check the release title and notes before downloading: entries marked **Pre-release** are not stable releases, and some entries contain only test assets rather than an installer.
 
-Production distribution requires a separately reviewed and protected product.
+The historical v1.0.0–v1.0.4 entries are marked as prereleases. The v1.0.28 font-download prerelease contains font and metadata objects for a matching test candidate, not a complete installer. The anonymous download test contains synthetic data and is not an installable product. These entries do not establish availability or acceptance of a current stable release.
+
+For getting started with commands and scripts, see [fastjs](https://github.com/mmsan/fastjs).
